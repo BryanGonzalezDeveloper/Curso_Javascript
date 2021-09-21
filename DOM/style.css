@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+min-height: 100vh;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+body{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+body h1{
+    text-align: center;
+    color: #4216F8;
+    font-size: 18px;
+    font-family: Cambria, Cochin,cursive, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+article{
+    border: 2px solid #0E4C74 ;
+}
+article figure img{
+    width: 100%;
+    padding: 5px;
+}
+figure{
+    background: #0E4C74;
+}
+figcaption{
+    color: #fff;
+    text-align: center;
+    height: 25px;
+}
+.descripcion{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0F3075;
+}
+.tag{
+    font-family: cursive;
+}
+.precio,.stock{
+    font-weight: bold;
+}
+.contenedor{
+    margin-top: 10px;
+display: flex;
+justify-content: center;
+}
+.link_comprar{
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(to right,#DF72DC,#AB49A7 ,#7712E3 );
+    height: 25px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-shadow: 0 0 2px 2px #000,0 0 2px 4px rgba(0, 0, 0,0.4),0 0 10px 6px #DB0DD2 ;
+    transition:all linear 0.4s ;
+    -webkit-transition:all linear 0.4s ;
+    -moz-transition:all linear 0.4s ;
+    -ms-transition:all linear 0.4s ;
+    -o-transition:all linear 0.4s ;
+}
+.link_comprar:hover{
+    opacity: 0.7;
+    transform: scale(1.1);
+    transform: translateY(-5%);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
