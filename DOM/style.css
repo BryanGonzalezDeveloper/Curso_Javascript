@@ -47,7 +47,7 @@ figcaption{
 .tag{
     font-family: cursive;
 }
-.precio,.stock{
+#precio,#stock{
     font-weight: bold;
 }
 .contenedor{

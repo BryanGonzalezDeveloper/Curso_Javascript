@@ -7,7 +7,7 @@
     <title>DOM en Javascript</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="">
     <header><h1>Tarjeta de producto</h1></header>
     <article class="tarjeta">
 <section class="producto">
@@ -17,8 +17,8 @@
     </figure>
     <div class="descripcion">
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit et quod consectetur labore voluptatum earum, harum soluta sunt error tenetur quo fuga voluptate quis delectus.</p>
-        <p class="tag">Precio: <span class="precio"> $100.00</span></p>
-        <p class="tag">Disponibles: <span class="stock">5</span></p>
+        <p class="tag">Precio: <span id="precio"></span></p>
+        <p class="tag">Disponibles: <span id="stock"></span></p>
     </div>
     <div class="contenedor">
         <a href="#" class="link_comprar">¡Lo quiero!</a>
